@@ -3,6 +3,7 @@
 * {
     font-family: "Plus Jakarta Sans", sans-serif;
     text-decoration: none !important;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,4 +14,11 @@ body {
 .navbar a{
     color: #e20613 !important;
     font-weight: 600;
+}
+
+@media (max-width: 440px){
+    .navbar-brand {
+        flex-grow: 1;
+        padding-left: 6.8rem;
+    }
 }
