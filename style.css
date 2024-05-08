@@ -9,8 +9,11 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #e20613;
 }
-
+.navbar {
+    background-color: #fff;
+}
 .navbar a{
     color: #e20613 !important;
     font-weight: 600;
@@ -19,6 +22,6 @@ body {
 @media (max-width: 440px){
     .navbar-brand {
         flex-grow: 1;
-        padding-left: 6.8rem;
+        padding-left: 29%;
     }
 }
