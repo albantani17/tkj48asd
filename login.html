@@ -8,6 +8,16 @@
     <script src="https://kit.fontawesome.com/c6bbbe02ff.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Jkt 48 Website</title>
+    <style>
+        .container {
+            background-color: #fff;
+        }
+        .row .col img {
+            width: 50%;
+            padding: 0;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm h-20 ">
@@ -28,7 +38,7 @@
                         <a href="" class="nav-link">Member</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="#" class="nav-link dropdown-toggle dropdown-toggle-split" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Theater
                         </a>
                         <ul class="dropdown-menu">
@@ -59,11 +69,19 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a href="" class="nav-link">Fanclub</a></li>
-                    <li class="nav-item"><a href="login.html" class="nav-link">Sign-In</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sign-In</a></li>
                 </ul>
             </div>
             <div class="order-4"></div>
         </div>
     </nav>
+    <div class="container border border-light">
+        <div class="row">
+            <div class="col border border-dark">
+                <img class="object-fit-cover" src="image/logo.svg" alt="">
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
 </body>
 </html>
