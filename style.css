@@ -13,6 +13,9 @@ body {
     background-color: #e20613;
     color: #fff;
 }
+.container {
+    margin: auto;
+}
 .navbar {
     background-color: #cc0404;
     padding: 0;
