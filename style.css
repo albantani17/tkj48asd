@@ -15,6 +15,12 @@ body {
 }
 .navbar {
     background-color: #cc0404;
+    padding: 0;
+}
+.navbar .container-fluid {
+    padding: 0;
+    margin: 0;
+    height: 50px;
 }
 .navbar a{
     font-weight: 600;
@@ -22,13 +28,18 @@ body {
 }
 
 .navbar-brand{
-    font-family:"FOT-Yuruka Std";
+    height: 100%;
+}
+.navbar-brand img {
+    width: 6rem;
 }
 
 .fa-bars{
     color: #fff;
 }
-
+.nav-item {
+    height: 100%;
+}
 .navbar-toggler{
     outline: none !important;
     border: none;
@@ -60,17 +71,20 @@ body {
     color: #e20613;
 }
 footer {
-    bottom: 10;
-    background-color: #fff;
+    bottom: 0;
+    background: #fff;
+    height: 200px;
+    background-repeat:round;
+    padding-top: 3rem;
 }
 .footer-link{
-    display: flex;
     list-style: none;
-    justify-content: center;
     color:#1d1919;
 }
 .footer-link .link-item .link {
-    text-decoration: none;
+    color: #000;
+}
+.footer-link .link-item .link:hover {
     color: #e20613;
 }
 
@@ -80,7 +94,7 @@ footer {
     }
     .navbar-brand {
         flex-grow: 1;
-        padding-left: 29%;
+        padding-left: 24%;
     }
     .order-4{
         display: none;
