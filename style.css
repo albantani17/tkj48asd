@@ -10,18 +10,60 @@ body {
     padding: 0;
     margin: 0;
     background-color: #e20613;
+    color: #fff;
 }
 .navbar {
-    background-color: #fff;
+    background-color: #cc0404;
 }
 .navbar a{
-    color: #e20613 !important;
     font-weight: 600;
+    color: #fff;
 }
 
-@media (max-width: 440px){
+.fa-bars{
+    color: #fff;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.collapse {
+    flex-grow: 0;
+}
+.nav-item a:hover {
+    background-color: white;
+    color: #e20613;
+}
+.nav-item a:focus {
+    background-color: white;
+    color: #e20613;
+}
+
+.dropdown .dropdown-toggler:focus {
+    color: #e20613;
+}
+
+.dropdown-menu {
+    background-color: #e20613;
+}
+.dropdown-menu:focus {
+    color: #e20613;
+}
+
+@media (max-width: 660px){
+    .container-fluid {
+        justify-content: start;
+    }
     .navbar-brand {
         flex-grow: 1;
         padding-left: 29%;
+    }
+    .order-4{
+        display: none;
     }
 }
