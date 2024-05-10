@@ -52,8 +52,18 @@ body {
 .navbar-toggler:focus{
     box-shadow: none;
 }
+.offcanvas {
+    background-color: #e20613;
+    max-width: 60%;
+}
 .offcanvas-title img{
     width: 5rem;
+}
+.offcanvas .dropdown .dropdown-menu {
+    background-color: #e20613;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #e20613;
 }
 .collapse {
     flex-grow: 0;
@@ -75,11 +85,6 @@ body {
     background-color: white;
     color: #e20613;
 }
-
-.offcanvas {
-    background-color: #e20613;
-}
-
 .dropdown .dropdown-toggler:focus {
     color: #e20613;
 }
@@ -124,6 +129,7 @@ footer {
 }
 .footer-link .link-item .link {
     color: #000;
+    margin: 1rem;
 }
 .footer-link .link-item .link:hover {
     color: #e20613;
@@ -138,5 +144,9 @@ footer {
     }
     .navbar-brand img{
         padding: 0;
+    }
+    .offcanvas {
+        background-color: #e20613;
+        max-width: 85%;
     }
 }
