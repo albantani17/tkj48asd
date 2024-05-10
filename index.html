@@ -12,67 +12,75 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-md">
-        <div class="container w-80 d-flex justify-content-around align-items-stretch">
-            <div class="navbar-brand order-1 order-lg-2"><a href="index.html"><img src="image/Jkt48(2).png" alt=""></a></div>
-            <button class="navbar-toggler order-lg-1 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse order-3 m-0 p-0 align-items-stretch" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Member</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Theater
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#" class="dropdown-item">Apa itu Teater JKT48</a></li>
-                            <li><a href="#" class="dropdown-item">Theater Virtual Tour 360°</a></li>
-                            <li><a href="#" class="dropdown-item">Tata cara pembelian ticket</a></li>
-                            <li><a href="#" class="dropdown-item">Jadwal Pertunjukan + Pembelian Ticket</a></li>
-                            <li><a href="#" class="dropdown-item">Jadwal Event + Pembelian Ticket</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            JKT48 Points
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#" class="dropdown-item">Cara Beli & Pakai JKT48 Points</a></li>
-                            <li><a href="#" class="dropdown-item">Beli JKT 48 Points</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Shop
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#" class="dropdown-item">JKT48 Web Shop</a></li>
-                            <li><a href="#" class="dropdown-item">JKT48 Shop at Tokopedia</a></li>
-                            <li><a href="#" class="dropdown-item">JKT48 Shop at Shopee</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a href="" class="nav-link">Fanclub</a></li>
-                    <li class="nav-item"><a href="login.html" class="nav-link">Sign-In</a></li>
-                </ul>
-            </div>
-            <div class="order-4">
-                <div class="btn-group dropdown=center">
-                    <button type="button" class="btn btn-danger">
-                        <img src="image/indonesia.png" alt="">
-                    </button>
-                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"><img src="image/japan.png" alt=""> Japan</a></li>
+        <!-- d-flex justify-content-around align-items-stretch -->
+        <div class="container d-flex justify-content-between align-items-center">
+                <div class="navbar-brand order-1 order-lg-2"><a href="index.html"><img src="image/Jkt48(2).png" alt=""></a></div>
+                <button class="navbar-toggler order-lg-1 "  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-start order-3" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header" data-bs-theme="dark">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="image/Jkt48(2).png" alt=""></h5>
+                        <!-- class="btn-close" -->
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Member</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Theater
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Apa itu Teater JKT48</a></li>
+                                <li><a href="#" class="dropdown-item">Theater Virtual Tour 360°</a></li>
+                                <li><a href="#" class="dropdown-item">Tata cara pembelian ticket</a></li>
+                                <li><a href="#" class="dropdown-item">Jadwal Pertunjukan + Pembelian Ticket</a></li>
+                                <li><a href="#" class="dropdown-item">Jadwal Event + Pembelian Ticket</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                JKT48 Points
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Cara Beli & Pakai JKT48 Points</a></li>
+                                <li><a href="#" class="dropdown-item">Beli JKT 48 Points</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">JKT48 Web Shop</a></li>
+                                <li><a href="#" class="dropdown-item">JKT48 Shop at Tokopedia</a></li>
+                                <li><a href="#" class="dropdown-item">JKT48 Shop at Shopee</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="" class="nav-link">Fanclub</a></li>
+                        <li class="nav-item"><a href="login.html" class="nav-link">Sign-In</a></li>
                     </ul>
+                </div>
+                <div class="order-4">
+                    <div class="order-4">
+                    <div class="btn-group dropdown=center">
+                        <button type="button" class="btn btn-danger">
+                            <img src="image/indonesia.png" alt="">
+                        </button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><img src="image/japan.png" alt=""> Japan</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
