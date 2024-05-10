@@ -90,14 +90,23 @@ body {
     width: 1.4rem;
 }
 .order-4 .btn-group .dropdown-menu {
-    width: 1px;
+    margin: 0;
+    padding: 0;
+    min-width: 1rem !important;
+    width: 5rem;
+    height: fit-content !important;
+    background-color: #e20613;
 }
 .order-4 .btn-group .dropdown-menu img {
     width: 1.4rem;
 } 
-
-.dropdown-menu {
-    background-color: #e20613;
+.order-4 .btn-group .dropdown-menu .dropdown-item{
+    margin: 0;
+    padding: .1rem;
+}
+.order-4 .btn-group .dropdown-menu .active {
+    background-color: #cc0404;
+    color: #fff;
 }
 .dropdown-menu:focus {
     color: #e20613;
