@@ -11,8 +11,8 @@
     <title>Jkt 48 Website</title>
 </head>
 <body>
+    <!--navbar -->
     <nav class="navbar navbar-expand-md">
-        <!-- d-flex justify-content-around align-items-stretch -->
         <div class="container col-12">
                 <div class="navbar-brand order-1 order-lg-2"><a href="index.html"><img src="image/Jkt48(2).png" alt=""></a></div>
                 <button class="navbar-toggler order-lg-1 "  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
@@ -38,7 +38,7 @@
                             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Theater
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu  animate-menu slideIn-menu">
                                 <li><a href="#" class="dropdown-item">Apa itu Teater JKT48</a></li>
                                 <li><a href="#" class="dropdown-item">Theater Virtual Tour 360°</a></li>
                                 <li><a href="#" class="dropdown-item">Tata cara pembelian ticket</a></li>
@@ -50,7 +50,7 @@
                             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 JKT48 Points
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu  animate-menu slideIn-menu">
                                 <li><a href="#" class="dropdown-item">Cara Beli & Pakai JKT48 Points</a></li>
                                 <li><a href="#" class="dropdown-item">Beli JKT 48 Points</a></li>
                             </ul>
@@ -59,25 +59,27 @@
                             <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Shop
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu  animate-menu slideIn-menu">
                                 <li><a href="#" class="dropdown-item">JKT48 Web Shop</a></li>
                                 <li><a href="#" class="dropdown-item">JKT48 Shop at Tokopedia</a></li>
                                 <li><a href="#" class="dropdown-item">JKT48 Shop at Shopee</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="" class="nav-link">Fanclub</a></li>
-                        <li class="nav-item"><a href="login.html" class="nav-link">Sign-In</a></li>
+                        <li class="nav-item d-none"><a href="" class="nav-link">Login</a></li>
                     </ul>
                 </div>
-                <div class="order-4">
-                    <div class="order-4">
+                <div class="order-4 d-flex justify-content-between gap-2">
+                    <div class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </div>
                     <div class="btn-group dropdown=center">
-                        <button type="button" class="btn btn-danger">
+                        <button type="button" class="btn  dropdown-toggle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="image/indonesia.png" alt="">
                         </button>
-                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                        </button>
-                        <ul class="dropdown-menu">
+                        <!-- <button type="button" class="btn  dropdown-toggle dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        </button> -->
+                        <ul class="dropdown-menu  animate-menu slideIn-menu">
                             <li><a href="#" class="dropdown-item active"><img src="image/indonesia.png" class="me-2">IND</a></li>
                             <li><a class="dropdown-item" href="#"><img src="image/japan.png" class="me-2">JPN</a></li>
                         </ul>
@@ -86,19 +88,72 @@
             </div>
         </div>
     </nav>
-
-    <footer class="container-fluid fixed-bottom">
+    <!-- Main Content -->
+    <!--Footer-->
+    <footer class="fixed-bottom">
         <!-- TOP | News | Member | Apa Itu JKT48 | Apa Itu AKB48 | Pengenalan Produser | Kontak | Syarat dan Ketentuan -->
-        <ul class="footer-link d-flex flex-wrap justify-content-center">
-            <li class="link-item"><a href="#" class="link">TOP</a>|</li>
-            <li class="link-item"><a href="#" class="link">News</a>|</li>
-            <li class="link-item"><a href="#" class="link">Member</a>|</li>
-            <li class="link-item"><a href="#" class="link">Apa itu JKT48</a>|</li>
-            <li class="link-item"><a href="#" class="link">Apa itu AKB48</a>|</li>
-            <li class="link-item"><a href="#" class="link">Pengenalan Produser</a>|</li>
-            <li class="link-item"><a href="#" class="link">Kontak</a>|</li>
-            <li class="link-item"><a href="#" class="link">Syarat dan Ketentuan</a></li>
-        </ul>
+        <div class="container-fluid">
+            <ul class="footer-link d-flex flex-wrap justify-content-center">
+                <li class="link-item"><a href="#" class="link">TOP</a>|</li>
+                <li class="link-item">
+                    <a href="#" class="link">News</a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#" class="link">Member</a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#" class="link">Apa itu JKT48</a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#" class="link">Apa itu AKB48</a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#" class="link">Pengenalan Produser</a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#" class="link">Kontak</a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#" class="link">Syarat dan Ketentuan</a>
+                </li>
+            </ul>
+            <ul class="footer-link socmed d-flex flex-wrap justify-content-center">
+                <li class="link-item">
+                    <a href="#"><i class="fa-brands fa-facebook"></i>
+                    </a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i>
+                    </a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i>
+                    </a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#"><i class="fa-brands fa-youtube"></i>
+                    </a>
+                    |
+                </li>
+                <li class="link-item">
+                    <a href="#"><i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    |
+                </li>
+            </ul>
+            <div class="copyright d-flex justify-content-center">
+                <p>Copyright &copy; 2024 JKT48 Operation Team (PT. Indonesia Musik Nusantara) All Rights Reserved</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
