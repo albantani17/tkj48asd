@@ -76,7 +76,16 @@ body {
     background-color: white;
     color: #e20613;
 }
-.nav-item a:focus {
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    background-color: white;
+    color: #e20613;
+}
+.nav-item a::after{
+    color: #fff;
+}
+
+.nav-item a:active {
     background-color: white;
     color: #e20613;
 }
@@ -128,12 +137,7 @@ body {
     background-color: #cc0404;
     color: #fff;
 }
-.account {
-    height: 3rem;
-    margin-right: .5rem;
-    padding-top: .6rem;
-    text-align: center;
-}
+
 footer {
     bottom: 0;
     background: #fff;
