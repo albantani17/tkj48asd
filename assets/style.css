@@ -102,9 +102,7 @@ body {
 .order-4 .nav-item .nav-link {
     border-radius: 3px;
 }
-.order-4 .btn-group{
-    padding-top: .6rem;
-}
+
 .order-4 .btn-group .btn {
     height: 2.5rem;
     border: none;
@@ -141,7 +139,6 @@ body {
 footer {
     bottom: 0;
     background: #fff;
-    height: 30%;
     padding-top: 2rem;
 }
 .footer-link{
@@ -204,7 +201,8 @@ footer {
     animation-name: slideIn-menu;
   }
 
-@media (max-width: 768px){
+
+@media (min-width: 320px){
     .container-fluid {
         justify-content: start;
     }
@@ -226,6 +224,36 @@ footer {
     .order-4 .nav-item {
         display: none;
     }
+
+    .animate-menu {
+        animation-duration: 0.7s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+      }
+      footer{
+          height: 20%;
+      }
+}
+
+
+@media (min-width: 801px){
+    .container-fluid {
+        justify-content: start;
+    }
+    .navbar-brand {
+        flex-grow: 1;
+    }
+    .navbar-brand img{
+        padding: 0;
+    }
+    .offcanvas {
+        background-color: #e20613;
+        max-width: 85%;
+    }
+    .order-4 .nav-item {
+        display: none;
+    }
     footer {
         height: 35%;
         padding-top: 1rem;
@@ -236,4 +264,21 @@ footer {
         animation-fill-mode: both;
         -webkit-animation-fill-mode: both;
       }
+}
+
+@media (min-width: 1025px){
+    .d-none {
+        display: none!important;
+        border-top: 1px #fff solid;
+    }
+    .order-4 .nav-item {
+        display: block;
+    }
+    .order-4 .btn-group{
+        padding-top: .4rem;
+    }
+    footer {
+        height: 25%;
+        padding-top: 1rem;
+    }
 }
