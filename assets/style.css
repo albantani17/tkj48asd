@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-@import url(https://db.onlinewebfonts.com/c/2b3966678f6a1c8c8be202caeb49d95a?family=FOT-Yuruka+Std);
+/* @import url(https://db.onlinewebfonts.com/c/2b3966678f6a1c8c8be202caeb49d95a?family=FOT-Yuruka+Std); */
 
 * {
     font-family: "Plus Jakarta Sans", sans-serif;
     text-decoration: none !important;
     box-sizing: border-box;
-    color: white !important;
+    color: #fff !important;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -20,6 +25,7 @@ body {
 .navbar {
     background-color: #cc0404;
     padding: 0;
+
 }
 .navbar .container-fluid {
     padding: 0;
@@ -141,6 +147,8 @@ footer {
     bottom: 0;
     background: #fff;
     padding-top: 2rem;
+    /* position: static !important; */
+    bottom: 0;
 }
 .footer-link{
     list-style: none;
