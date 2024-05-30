@@ -149,6 +149,9 @@ footer {
     /* position: static !important; */
     bottom: 0;
 }
+.footer-link *{
+    color: #000 !important;
+}
 .footer-link{
     list-style: none;
     margin: 0;
@@ -168,6 +171,11 @@ footer {
     font-size: 1.3rem;
     color: #1d1919 !important;
 }
+
+.socmed .link-item a i:hover {
+   color: #e20613 !important;
+}
+
 .copyright p {
     color: #000 !important;
     text-align: center;
@@ -285,7 +293,7 @@ footer {
         padding-top: .4rem;
     }
     footer {
-        height: 25%;
-        padding-top: 1rem;
+        height: 15rem !important;
+        padding-top: 6%;
     }
 }
