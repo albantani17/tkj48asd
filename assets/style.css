@@ -26,6 +26,10 @@ body {
     background-color: #e20613;
     padding: 0;
 }
+
+.navbar *{
+    color: #fff !important;
+}
 .navbar .container-fluid {
     padding: 0;
     margin: 0;

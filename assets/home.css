@@ -202,13 +202,13 @@
     height: 80px;
     font-size: 25px;
     border: none;
-    background-color: #fff;
+    background-color: #e20613;
+    color: #fff !important;
     transition: .3s;
 }
 
 .btn-schedule:hover {
-    background-color: #e20613;
-    color: #fff !important;
+    background-color: #bc0510;
 }
 
 /* background hari */
@@ -238,6 +238,7 @@
     }
     .judul {
         width: 95%;
+        font-size: 20px;
     }
     .news {
         width: 95%;
@@ -266,6 +267,7 @@
     }
     .judul {
         width: 70%;
+        font-size: 30px;
     }
     .news {
         width: 70%;
