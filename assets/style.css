@@ -5,7 +5,7 @@
     font-family: "Plus Jakarta Sans", sans-serif;
     text-decoration: none !important;
     box-sizing: border-box;
-    color: #fff ;
+    color: #F8F7F2 ;
 }
 *,
 *::before,
@@ -16,7 +16,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #ff0606;
+    background-color: #cf0511;
     color: #fff;
 }
 .container {
