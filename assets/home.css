@@ -36,20 +36,22 @@
 
 /* judul */
 .judul {
-    width: 60%;
-    padding: 5px 0 5px 0;
-    border: 1px solid black;
+    width: 100%;
+    /* padding: 5px 0 5px 0; */
+    /* border: 1px solid black; */
     border-radius: 20px;
-    color: #e20613;
-    margin: 20px auto 0 auto;
+    color: #e20613 !important;
+    /* margin: 70px auto 0 auto; */
     background-color: #fff;
     text-transform: uppercase;
+    font-weight: 900;
 }
 /* News */
 
-.news-main {
-    padding: 10px 0 50px 0;
-}
+/* .news-main {
+
+    padding: 50px 0 50px 0;
+} */
 .news {
     margin-top: 5px;
     margin-bottom: 20px;
@@ -59,7 +61,7 @@
     padding: 20px 10px 30px 10px;
 }
 
-.news *{
+.news-container *{
     color: #000 !important;
 }
 
@@ -151,6 +153,9 @@
 }
 
 /* Schedule */
+
+
+
 .schedule-main {
     background-color: #ff0606;
     padding: 50px 0 50px 0;
@@ -182,6 +187,24 @@
 .row *{
     padding: 0;
 } 
+.title-schedule *{
+    background-color: #e20613 !important;
+    color: #fff !important;
+    height: 5rem;
+    padding-top: 10px;
+}
+
+.judul-schedule {
+    font-size: 2rem !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 100%;
+    color: #fff !important;
+    margin: auto;
+    background: #e20613;
+}
+
+
 .date-schedule {
     text-align: center;
     margin: 0;
@@ -202,13 +225,14 @@
     height: 80px;
     font-size: 25px;
     border: none;
-    background-color: #e20613;
     color: #fff !important;
+    background-color: #e20613;
     transition: .3s;
 }
 
 .btn-schedule:hover {
-    background-color: #bc0510;
+    background-color: #ff0606;
+    color: #fff !important;
 }
 
 /* background hari */
