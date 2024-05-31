@@ -34,24 +34,22 @@
     background-color: #e20613 !important;
 }
 
-/* judul */
+
+/* News */
 .judul {
     width: 100%;
-    /* padding: 5px 0 5px 0; */
-    /* border: 1px solid black; */
     border-radius: 20px;
     color: #e20613 !important;
-    /* margin: 70px auto 0 auto; */
     background-color: #fff;
     text-transform: uppercase;
     font-weight: 900;
 }
-/* News */
 
-/* .news-main {
+.news-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-    padding: 50px 0 50px 0;
-} */
 .news {
     margin-top: 5px;
     margin-bottom: 20px;
