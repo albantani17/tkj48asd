@@ -25,6 +25,7 @@ body {
 .navbar {
     background-color: #e20613;
     padding: 0;
+    height: 3.5rem;
 }
 
 .navbar *{
@@ -144,6 +145,10 @@ body {
 }
 .order-4 .btn-group .dropdown-menu .active {
     background-color: #cc0404;
+}
+
+.order-4 .btn-group .dropdown-menu *:hover {
+    color: #e20613 !important;
 }
 
 footer {
