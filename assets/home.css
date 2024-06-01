@@ -1,3 +1,5 @@
+
+
 /* Banner */
 .banner {
     width: 100%;
@@ -9,6 +11,7 @@
     border-radius: 10px;
     width: 100%;
 }
+
 .swiper-slide {
     display: flex;
     justify-content: center;
@@ -16,6 +19,7 @@
     background-position: center;
     background-size: cover;
 }
+
 .swiper-slide img {
     margin: 0;
     width: 100%;
@@ -32,6 +36,9 @@
 }
 .swiper-pagination-bullet {
     background-color: #e20613 !important;
+}
+.swiper-lazy-preloader {
+    border-color: #ff0606;
 }
 
 
