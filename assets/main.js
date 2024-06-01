@@ -27,3 +27,16 @@ let swiper = new Swiper(".mySwiper", {
     delay: 3000,
   },
 });
+
+let albumSwiper = new Swiper(".albumSwiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  spaceBetween: 30,
+  loop:true,
+});

@@ -253,6 +253,70 @@
     color: #000 !important;
 }
 
+/* album release */
+.release-container{
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+
+.judul-release {
+    text-align: center;
+    font-weight: 900;
+}
+
+.albumSwiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.albumSwiper * {
+    color: #000;
+}
+
+.album-wrapper {
+    margin: 5px auto 10px auto;
+
+}
+
+.album-slide {
+    /* width: 100%; */
+    padding-bottom: 3rem;
+}
+.content-album {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.content-2 {
+    padding: 20px;
+}
+.release-img {
+    margin: auto;
+}
+
+.content-3 {
+    padding: 20px;
+}
+
+.description-album h4 {
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.swiper-button-prev.album-prev{
+    color: #fff !important;
+}
+.swiper-button-next.album-next {
+    color: #fff !important;
+}
+.album-pagination .swiper-pagination-bullet {
+    background-color: #fff !important;
+}
+
 @media (min-width:320px) {
     .swiper-slide {
         width: 100%;
@@ -282,7 +346,68 @@
     .date-schedule {
         height: 150px;
     }
+    .album-wrapper {
+        height: fit-content;
+    }
+    .album-slide{
+        height: fit-content;
+    }
+    .content-album {
+        width: 95%;
+        display: block;
+    }
+    .content-1 {
+        display: none;
+    }
+    .content-2{
+        border-bottom: 3px dotted rgba(117, 115, 115, 1);
+    }
+    .release-img {
+        width: fit-content;
+        margin: auto;
+    }
+    .release-img img {
+        width: 100%;
+    }
 }
+
+@media (min-width:768px){
+    .album-wrapper {
+        height: 30rem;
+    }
+    .album-slide{
+        padding: 0;
+    }
+    .content-album {
+        width: 70%; 
+        display: flex;
+    }
+    .content-1 {
+        border-right: 3px dotted rgba(117, 115, 115, 1);
+        padding: 20px;
+        width: 30%;
+        display: block;
+    }
+    
+    .content-2{
+        border-bottom: none;
+        width: 30%;
+    }
+    .content-3{
+        width: 40%;
+        border-left: 3px dotted rgba(117, 115, 115, 1);
+    }
+    .release-img{
+        width: fit-content;
+    }
+    .release-img img {
+        width: 100%;
+    }
+    .description-album {
+        width: 100%;
+    }
+}
+
 @media (min-width:992px)
 {
     .swiper-slide {
