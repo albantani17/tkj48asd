@@ -39,6 +39,8 @@
 }
 .swiper-lazy-preloader {
     border-bottom-color: #ff0606;
+    border-left-color: #ff0606;
+    border-right-color: #ff0606;
 }
 
 
