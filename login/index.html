@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/c6bbbe02ff.js" crossorigin="anonymous"></script>
     <link href="https://db.onlinewebfonts.com/c/2b3966678f6a1c8c8be202caeb49d95a?family=FOT-Yuruka+Std" rel="stylesheet">
     <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/login.css">
     <title>Jkt 48 Website</title>
 </head>
 <body>
@@ -90,16 +91,35 @@
     </nav>
     <!-- Main Content -->
 
-    <div class="container">
-        <div class="d-flex">
-            <div class="img"></div>
+    <div class="login container">
+        <div class="d-flex login-container">
+            <div class="cover">
+                <img src="../image/login.webp" alt="">
+            </div>
+            <div class="login-page">
+                <div class="logo-login">
+                    <img src="../image/logo.svg" alt="">
+                </div>
+                <h3>LOGIN</h3>
+                <div class="login-input">
+                    <h5>Email</h5>
+                    <input type="email" name="email" id="email" required>
+                    <h5>Password</h5>
+                    <input type="password" name="password" id="password" required>
+                    <div class="link-login d-flex justify-content-between">
+                        <a href="#">daftar</a>
+                        <a href="#">Lupa sandi?</a>
+                    </div>
+                    <input type="submit" value="Login">
+                </div>
+            </div> 
         </div>
     </div>
 
 
 
     <!--Footer-->
-    <footer class="fixed-bottom">
+    <footer class="fixed bottom">
         <!-- TOP | News | Member | Apa Itu JKT48 | Apa Itu AKB48 | Pengenalan Produser | Kontak | Syarat dan Ketentuan -->
         <div class="container-fluid">
             <ul class="footer-link d-flex flex-wrap justify-content-center">
