@@ -94,3 +94,11 @@ input[type="submit"]:hover {
 .link-login a:hover {
     color: #e20613 !important;
 }
+@media (max-width: 768px){
+    .login-container{
+        width: 100%;
+    }
+    .cover {
+        display: none;
+    }
+}
