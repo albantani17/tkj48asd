@@ -104,7 +104,7 @@ input[type="submit"]:hover {
     .login-container{
         width: 100%;
     }
-    .cover {
+    /* .cover {
         display: none;
-    }
+    } */
 }
