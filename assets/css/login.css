@@ -64,8 +64,8 @@ input[type="email"], input[type="password"] {
     width: 100%;
     border: none;
     border-radius: 5px;
-    background-color: #e20613;
-    color: #fff !important;
+    background-color: #e7e5df;
+    /* color:  !important; */
     margin: 10px 0;
 }
 
@@ -104,7 +104,4 @@ input[type="submit"]:hover {
     .login-container{
         width: 100%;
     }
-    /* .cover {
-        display: none;
-    } */
 }
