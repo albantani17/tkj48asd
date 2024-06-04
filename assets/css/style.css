@@ -237,8 +237,7 @@ footer {
         padding: 0;
     }
 
-    .d-none {
-        display: block  !important;
+    .last {
         border-top: 1px #fff solid;
     }
     .offcanvas {

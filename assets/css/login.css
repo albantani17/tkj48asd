@@ -8,10 +8,6 @@
     overflow: hidden;
 }
 
-.login-container{
-    width: fit-content;
-}
-
 .login *{
     color: #000 !important;
 }
@@ -25,6 +21,15 @@
 .cover img {
     border-radius: 20px;
     width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    margin: auto;
+}
+.swiper-slide {
+    width: 100%;
+    margin: auto;
 }
 
 .login-page{
@@ -64,7 +69,7 @@ input[type="email"], input[type="password"] {
     margin: 10px 0;
 }
 
-input[type="email"]:focus, input[type="password"] {
+input[type="email"]:focus, input[type="password"]:focus {
     outline: none;
 }
 
@@ -93,6 +98,7 @@ input[type="submit"]:hover {
 }
 .link-login a:hover {
     color: #e20613 !important;
+    border-bottom: 1px solid #e20613;
 }
 @media (max-width: 768px){
     .login-container{
